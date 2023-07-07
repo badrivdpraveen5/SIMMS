@@ -10,6 +10,15 @@ import { StudentloginComponent } from './homepage/studentlogin/studentlogin.comp
 import { HomeComponent } from './homepage/home/home.component';
 import { AboutusComponent } from './homepage/aboutus/aboutus.component';
 import { ContactusComponent } from './homepage/contactus/contactus.component';
+import { AdminComponent } from './admin/admin.component';
+import { FacultyComponent } from './faculty/faculty.component';
+import { StudentComponent } from './student/student.component';
+import { AdmindashboardComponent } from './admin/admindashboard/admindashboard.component';
+import { FacultydashboardComponent } from './faculty/facultydashboard/facultydashboard.component';
+import { StudentdashboardComponent } from './student/studentdashboard/studentdashboard.component';
+import { StudentregComponent } from './admin/studentreg/studentreg.component';
+import { FacultyregComponent } from './admin/facultyreg/facultyreg.component';
+import { SubjectmapComponent } from './admin/subjectmap/subjectmap.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +29,16 @@ import { ContactusComponent } from './homepage/contactus/contactus.component';
     StudentloginComponent,
     HomeComponent,
     AboutusComponent,
-    ContactusComponent
+    ContactusComponent,
+    AdminComponent,
+    FacultyComponent,
+    StudentComponent,
+    AdmindashboardComponent,
+    FacultydashboardComponent,
+    StudentdashboardComponent,
+    StudentregComponent,
+    FacultyregComponent,
+    SubjectmapComponent
   ],
   imports: [
     BrowserModule,

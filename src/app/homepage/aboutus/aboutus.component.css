@@ -1,7 +1,8 @@
 body {
     background-color: skyblue;
+    height: 100vh;
   }
   .container {
-    padding-top:10%;
-    height: 105dvh;
+    padding-top:20px;
+    
 }

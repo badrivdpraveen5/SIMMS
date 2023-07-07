@@ -1,12 +1,12 @@
 
 body {
     background-color: skyblue;
-    padding-top: 300px;
-   
+    padding-top: 20px;
+   height: 100vh;
   }
   .container {
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
     text-align:center;
   }
