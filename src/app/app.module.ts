@@ -16,10 +16,22 @@ import { StudentComponent } from './student/student.component';
 import { AdmindashboardComponent } from './admin/admindashboard/admindashboard.component';
 import { FacultydashboardComponent } from './faculty/facultydashboard/facultydashboard.component';
 import { StudentdashboardComponent } from './student/studentdashboard/studentdashboard.component';
-import { StudentregComponent } from './admin/studentreg/studentreg.component';
-import { FacultyregComponent } from './admin/facultyreg/facultyreg.component';
-import { SubjectmapComponent } from './admin/subjectmap/subjectmap.component';
-
+import { StudentregComponent } from './hod/studentreg/studentreg.component';
+import { FacultyregComponent } from './hod/facultyreg/facultyreg.component';
+import { SubjectmapComponent } from './hod/subjectmap/subjectmap.component';
+import { HodloginComponent } from './homepage/hodlogin/hodlogin.component';
+import { HodComponent } from './hod/hod.component';
+import { HoddashoardComponent } from './hod/hoddashoard/hoddashoard.component';
+import { LockmarksComponent } from './admin/admindashboard/lockmarks/lockmarks.component';
+import { ViewmarksComponent } from './student/viewmarks/viewmarks.component';
+import { MarksupdateComponent } from './faculty/marksupdate/marksupdate.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
+import { HodregComponent } from './admin/hodreg/hodreg.component';
+import { StuprofileComponent } from './student/stuprofile/stuprofile.component';
+import { FacultyViewMarksComponent } from './faculty/faculty-view-marks/faculty-view-marks.component';
+import { MarksenterComponent } from './faculty/marksupdate/marksenter/marksenter.component';
+import { HodViewMarksComponent } from './hod/hod-view-marks/hod-view-marks.component';
+import { AdminViewMarksComponent } from './admin/admin-view-marks/admin-view-marks.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +50,20 @@ import { SubjectmapComponent } from './admin/subjectmap/subjectmap.component';
     StudentdashboardComponent,
     StudentregComponent,
     FacultyregComponent,
-    SubjectmapComponent
+    SubjectmapComponent,
+    HodloginComponent,
+    HodComponent,
+    HoddashoardComponent,
+    LockmarksComponent,
+    ViewmarksComponent,
+    MarksupdateComponent,
+    ChangepasswordComponent,
+    HodregComponent,
+    StuprofileComponent,
+    FacultyViewMarksComponent,
+    MarksenterComponent,
+    HodViewMarksComponent,
+    AdminViewMarksComponent,
   ],
   imports: [
     BrowserModule,
