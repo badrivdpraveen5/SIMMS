@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -32,6 +32,9 @@ import { FacultyViewMarksComponent } from './faculty/faculty-view-marks/faculty-
 import { MarksenterComponent } from './faculty/marksupdate/marksenter/marksenter.component';
 import { HodViewMarksComponent } from './hod/hod-view-marks/hod-view-marks.component';
 import { AdminViewMarksComponent } from './admin/admin-view-marks/admin-view-marks.component';
+import { PractiseComponent } from './practise/practise.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,10 +67,14 @@ import { AdminViewMarksComponent } from './admin/admin-view-marks/admin-view-mar
     MarksenterComponent,
     HodViewMarksComponent,
     AdminViewMarksComponent,
+    PractiseComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

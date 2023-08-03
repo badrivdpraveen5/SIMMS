@@ -27,6 +27,7 @@ import { HodregComponent } from './admin/hodreg/hodreg.component';
 import { StuprofileComponent } from './student/stuprofile/stuprofile.component';
 import { FacultyViewMarksComponent } from './faculty/faculty-view-marks/faculty-view-marks.component';
 import { AdminViewMarksComponent } from './admin/admin-view-marks/admin-view-marks.component';
+import { PractiseComponent } from './practise/practise.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -76,6 +77,9 @@ const routes: Routes = [
     {path:'pwd',component:ChangepasswordComponent},
     {path:'profile',component:StuprofileComponent}
   ]
+},
+{
+  path:'practise',component:PractiseComponent
 }
 ];
 

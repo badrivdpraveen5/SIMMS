@@ -1,0 +1,17 @@
+<div class="container text-center mt-5 w-50">
+<form method="post" class="form-control p-5" [formGroup]="data" (submit)="login(data.value)">
+    <h1>Login Form</h1>
+    <div>
+    <input class="form-control form-contol-lg mt-5 " type="text" formControlName="uname" placeholder="Enter Username"/><br>
+    </div>
+    <input class="form-control form-contol-lg" type="password" formControlName="pwd" placeholder="Enter Password"/><br>
+    <input class="btn btn-success m-1" type="reset" value="Reset" />
+    <button class="btn btn-primary">Login</button>
+</form>
+</div>
+<div>
+    <div *ngFor="let row of result">
+        <p>{{row.sname}}-{{row.password}}</p>
+        
+    </div>
+</div>
